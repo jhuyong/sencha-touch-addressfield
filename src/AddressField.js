@@ -9,7 +9,7 @@ Ext.define('hnpostVisiting.ux.AddressField', {
     config: {
         ui: 'select',
         /**
-         * @cfg {Object/Ext.picker.Date} picker
+         * @cfg {Object/Ext.picker.Address} picker
          * An object that is used when creating the internal {@link Ext.picker.Date} component or a direct instance of {@link Ext.picker.Date}.
          * @accessor
          */
@@ -22,14 +22,6 @@ Ext.define('hnpostVisiting.ux.AddressField', {
          */
         clearIcon: false,
 
-        /**
-         * @cfg {Object/Date} value
-         * Default value for the field and the internal {@link Ext.picker.Date} component. Accepts an object of 'year',
-         * 'month' and 'day' values, all of which should be numbers, or a {@link Date}.
-         *
-         * Example: {year: 1989, day: 1, month: 5} = 1st May 1989 or new Date()
-         * @accessor
-         */
 
         /**
          * @cfg {Boolean} destroyPickerOnHide
