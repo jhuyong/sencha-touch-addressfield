@@ -7,13 +7,6 @@ Ext.define('hnpostVisiting.ux.Address', {
     alternateClassName: 'Ext.AddressPicker',
     requires: [ 'Ext.util.InputBlocker'],
 
-    /**
-     * @event change
-     * Fired when the value of this picker has changed and the done button is pressed.
-     * @param {Ext.picker.Date} this This Picker
-     * @param {Date} value The date value
-     */
-
     config: {
         /**
          * @cfg {String} citys
